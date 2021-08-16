@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>benchmark_akka_cluster</RootNamespace>
+    <UserSecretsId>660d6e65-8244-4508-893f-840c9f1f8127</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Akka.Bootstrap.Docker" Version="0.5.3" />
+    <PackageReference Include="Akka.Cluster.Sharding" Version="1.4.23" />
+    <PackageReference Include="Akka.Serialization.Hyperion" Version="1.4.23" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="akka.hocon">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

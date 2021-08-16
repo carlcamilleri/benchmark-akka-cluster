@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\personal\Study\PhD\Source\code\artefacts\dotnet\src\benchmark-akka-cluster\bin\Release\net5.0\publish\</_PublishTargetUrl>
+    <History>True|2021-08-16T16:03:11.9433898Z;True|2021-08-16T17:57:42.1272482+02:00;True|2021-08-16T17:50:57.0640314+02:00;False|2021-08-16T17:49:34.6217633+02:00;True|2021-08-16T17:41:34.7780611+02:00;True|2021-08-16T17:39:23.9716098+02:00;True|2021-08-16T17:38:51.5815028+02:00;True|2021-08-16T17:27:14.1801256+02:00;True|2021-08-16T17:19:31.9979258+02:00;</History>
+  </PropertyGroup>
+</Project>
