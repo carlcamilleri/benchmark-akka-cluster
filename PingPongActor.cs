@@ -14,6 +14,8 @@ namespace benchmark_akka_cluster
         private int _pid;
         private string _identifier;
 
+		private IActorRef _sender;
+
         protected override void PreStart()
         {
             base.PreStart();
@@ -24,12 +26,19 @@ namespace benchmark_akka_cluster
 		}
         public PingPongActor()
 		{
-			ReceiveAny((msg) => Sender.Tell(new MsgPong(_identifier)));
+			ReceiveAny((msg) => {
+				Sender.Tell(new MsgPong(_identifier));
+			});
 
-			
+
 		}
 
-
 		 
+
+
+
+
+
+
 	}
 }

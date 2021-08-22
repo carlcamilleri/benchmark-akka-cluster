@@ -26,5 +26,10 @@ namespace benchmark_akka_cluster
         public T Payload { get; private set; }
 
         public object ObjectPayload => Payload;
+
+        public override string ToString()
+        {
+            return EntityId;
+        }        
     }
 }

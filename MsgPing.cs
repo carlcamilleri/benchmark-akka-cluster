@@ -8,4 +8,6 @@ namespace benchmark_akka_cluster
     public class MsgPing
     {
     }
+
+    public record MsgSendPing(string entityId, MsgPing msg);
 }
